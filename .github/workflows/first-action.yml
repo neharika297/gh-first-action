@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World!!"
       - name: Print
         run: echo "Howdy!!"
+      - name: Print multiple
+        run: |
+          echo "One"
+          echo "Two"
